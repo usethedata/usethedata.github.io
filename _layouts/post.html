@@ -2,47 +2,37 @@
 layout: default
 ---
 
-<article class="post">
-    <header class="post-header">
-        <h1>{{ page.title }}</h1>
-        <p class="post-meta">
-            <time datetime="{{ page.date | date_to_xmlschema }}">
-                {{ page.date | date: "%B %d, %Y" }}
-            </time>
-            {% if page.author %} • {{ page.author }}{% endif %}
-        </p>
-    </header>
+<div class="row">
+    <div class="col s12">
+        <div class="card">
+            <div class="card-content">
+                <span class="card-title">{{ page.title }}</span>
+                <p class="grey-text">
+                    <i class="material-icons tiny">access_time</i>
+                    <time datetime="{{ page.date | date_to_xmlschema }}">
+                        {{ page.date | date: "%B %d, %Y" }}
+                    </time>
+                    {% if page.author %} • {{ page.author }}{% endif %}
+                </p>
+                <div class="divider" style="margin: 1.5rem 0;"></div>
+                <div class="post-content flow-text">
+                    {{ content }}
+                </div>
 
-    <div class="post-content">
-        {{ content }}
+                {% if page.tags %}
+                <div class="divider" style="margin: 1.5rem 0;"></div>
+                <div class="chips">
+                    {% for tag in page.tags %}
+                        <div class="chip">{{ tag }}</div>
+                    {% endfor %}
+                </div>
+                {% endif %}
+            </div>
+        </div>
     </div>
-
-    {% if page.tags %}
-    <div class="post-tags">
-        <strong>Tags:</strong>
-        {% for tag in page.tags %}
-            <span class="tag">{{ tag }}</span>
-        {% endfor %}
-    </div>
-    {% endif %}
-</article>
+</div>
 
 <style>
-    .post-header {
-        border-bottom: 2px solid #2c3e50;
-        padding-bottom: 1rem;
-        margin-bottom: 2rem;
-    }
-
-    .post-meta {
-        color: #666;
-        font-size: 0.9rem;
-    }
-
-    .post-content {
-        line-height: 1.8;
-    }
-
     .post-content img {
         max-width: 100%;
         height: auto;
@@ -50,18 +40,16 @@ layout: default
         border-radius: 4px;
     }
 
-    .post-tags {
+    .post-content h2 {
         margin-top: 2rem;
-        padding-top: 1rem;
-        border-top: 1px solid #ddd;
+        font-weight: 400;
     }
 
-    .tag {
-        display: inline-block;
-        background-color: #f0f0f0;
-        padding: 0.25rem 0.75rem;
-        margin: 0.25rem;
-        border-radius: 3px;
-        font-size: 0.85rem;
+    .post-content ul, .post-content ol {
+        padding-left: 2rem;
+    }
+
+    .post-content li {
+        margin-bottom: 0.5rem;
     }
 </style>

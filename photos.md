@@ -4,86 +4,47 @@ title: Photos
 permalink: /photos/
 ---
 
-# Photos
+<h4 class="center-align">Photo Gallery</h4>
 
 {% if site.photos.size > 0 %}
-<div class="photo-grid">
+<div class="row">
 {% for photo in site.photos %}
-    <div class="photo-item">
-        <a href="{{ photo.url }}">
+    <div class="col s12 m6 l4">
+        <div class="card hoverable">
             {% if photo.thumbnail %}
-            <img src="{{ photo.thumbnail }}" alt="{{ photo.title }}">
+            <div class="card-image">
+                <img src="{{ photo.thumbnail }}" alt="{{ photo.title }}">
+            </div>
             {% else %}
-            <div class="photo-placeholder">📷</div>
+            <div class="card-image" style="background-color: #e0e0e0; height: 250px; display: flex; align-items: center; justify-content: center;">
+                <i class="material-icons large grey-text">photo_camera</i>
+            </div>
             {% endif %}
-            <h3>{{ photo.title }}</h3>
-        </a>
-        {% if photo.date %}
-        <p class="photo-date">{{ photo.date | date: "%B %Y" }}</p>
-        {% endif %}
+            <div class="card-content">
+                <span class="card-title">{{ photo.title }}</span>
+                {% if photo.date %}
+                <p class="grey-text">
+                    <i class="material-icons tiny">access_time</i>
+                    {{ photo.date | date: "%B %Y" }}
+                </p>
+                {% endif %}
+            </div>
+            <div class="card-action">
+                <a href="{{ photo.url }}">View photo</a>
+            </div>
+        </div>
     </div>
 {% endfor %}
 </div>
 {% else %}
-<p class="no-content">Photo gallery coming soon!</p>
+<div class="row">
+    <div class="col s12">
+        <div class="card">
+            <div class="card-content center-align grey-text">
+                <i class="material-icons large">photo_library</i>
+                <p>Photo gallery coming soon!</p>
+            </div>
+        </div>
+    </div>
+</div>
 {% endif %}
-
-<style>
-    .photo-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-        gap: 2rem;
-        margin-top: 2rem;
-    }
-
-    .photo-item {
-        text-align: center;
-    }
-
-    .photo-item a {
-        text-decoration: none;
-        color: inherit;
-    }
-
-    .photo-item img {
-        width: 100%;
-        height: 250px;
-        object-fit: cover;
-        border-radius: 8px;
-        transition: transform 0.2s;
-    }
-
-    .photo-item img:hover {
-        transform: scale(1.05);
-    }
-
-    .photo-placeholder {
-        width: 100%;
-        height: 250px;
-        background-color: #f0f0f0;
-        border-radius: 8px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 4rem;
-    }
-
-    .photo-item h3 {
-        margin: 1rem 0 0.5rem 0;
-        font-size: 1.1rem;
-        color: #2c3e50;
-    }
-
-    .photo-date {
-        color: #666;
-        font-size: 0.85rem;
-        margin: 0;
-    }
-
-    .no-content {
-        text-align: center;
-        color: #999;
-        font-style: italic;
-        padding: 3rem 0;
-    }
-</style>

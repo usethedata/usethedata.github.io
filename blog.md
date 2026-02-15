@@ -4,79 +4,38 @@ title: Blog
 permalink: /blog/
 ---
 
-# Blog Posts
+<h4 class="center-align">Blog Posts</h4>
 
 {% if site.posts.size > 0 %}
-<div class="post-list">
+<div class="row">
 {% for post in site.posts %}
-    <article class="post-preview">
-        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-        <p class="post-date">{{ post.date | date: "%B %d, %Y" }}</p>
-        {% if post.excerpt %}
-        <p class="post-excerpt">{{ post.excerpt | strip_html | truncatewords: 50 }}</p>
-        {% endif %}
-        <a href="{{ post.url }}" class="read-more">Read more →</a>
-    </article>
+    <div class="col s12">
+        <div class="card hoverable">
+            <div class="card-content">
+                <span class="card-title"><a href="{{ post.url }}" class="blue-text text-darken-3">{{ post.title }}</a></span>
+                <p class="grey-text">
+                    <i class="material-icons tiny">access_time</i>
+                    {{ post.date | date: "%B %d, %Y" }}
+                </p>
+                {% if post.excerpt %}
+                <p>{{ post.excerpt | strip_html | truncatewords: 50 }}</p>
+                {% endif %}
+            </div>
+            <div class="card-action">
+                <a href="{{ post.url }}">Read more</a>
+            </div>
+        </div>
+    </div>
 {% endfor %}
 </div>
 {% else %}
-<p class="no-content">No blog posts yet. Check back soon!</p>
+<div class="row">
+    <div class="col s12">
+        <div class="card">
+            <div class="card-content center-align grey-text">
+                <p>No blog posts yet. Check back soon!</p>
+            </div>
+        </div>
+    </div>
+</div>
 {% endif %}
-
-<style>
-    .post-list {
-        margin-top: 2rem;
-    }
-
-    .post-preview {
-        margin-bottom: 3rem;
-        padding-bottom: 2rem;
-        border-bottom: 1px solid #e0e0e0;
-    }
-
-    .post-preview:last-child {
-        border-bottom: none;
-    }
-
-    .post-preview h2 {
-        margin-top: 0;
-        margin-bottom: 0.5rem;
-    }
-
-    .post-preview h2 a {
-        color: #2c3e50;
-        text-decoration: none;
-    }
-
-    .post-preview h2 a:hover {
-        color: #3498db;
-    }
-
-    .post-date {
-        color: #666;
-        font-size: 0.9rem;
-        margin-bottom: 1rem;
-    }
-
-    .post-excerpt {
-        color: #444;
-        line-height: 1.6;
-    }
-
-    .read-more {
-        color: #3498db;
-        text-decoration: none;
-        font-weight: 500;
-    }
-
-    .read-more:hover {
-        text-decoration: underline;
-    }
-
-    .no-content {
-        text-align: center;
-        color: #999;
-        font-style: italic;
-        padding: 3rem 0;
-    }
-</style>
