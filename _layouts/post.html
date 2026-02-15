@@ -1,0 +1,67 @@
+---
+layout: default
+---
+
+<article class="post">
+    <header class="post-header">
+        <h1>{{ page.title }}</h1>
+        <p class="post-meta">
+            <time datetime="{{ page.date | date_to_xmlschema }}">
+                {{ page.date | date: "%B %d, %Y" }}
+            </time>
+            {% if page.author %} • {{ page.author }}{% endif %}
+        </p>
+    </header>
+
+    <div class="post-content">
+        {{ content }}
+    </div>
+
+    {% if page.tags %}
+    <div class="post-tags">
+        <strong>Tags:</strong>
+        {% for tag in page.tags %}
+            <span class="tag">{{ tag }}</span>
+        {% endfor %}
+    </div>
+    {% endif %}
+</article>
+
+<style>
+    .post-header {
+        border-bottom: 2px solid #2c3e50;
+        padding-bottom: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .post-meta {
+        color: #666;
+        font-size: 0.9rem;
+    }
+
+    .post-content {
+        line-height: 1.8;
+    }
+
+    .post-content img {
+        max-width: 100%;
+        height: auto;
+        margin: 1.5rem 0;
+        border-radius: 4px;
+    }
+
+    .post-tags {
+        margin-top: 2rem;
+        padding-top: 1rem;
+        border-top: 1px solid #ddd;
+    }
+
+    .tag {
+        display: inline-block;
+        background-color: #f0f0f0;
+        padding: 0.25rem 0.75rem;
+        margin: 0.25rem;
+        border-radius: 3px;
+        font-size: 0.85rem;
+    }
+</style>

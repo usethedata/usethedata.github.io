@@ -1,0 +1,80 @@
+---
+layout: default
+---
+
+<article class="photo-page">
+    <header class="photo-header">
+        <h1>{{ page.title }}</h1>
+        {% if page.date %}
+        <p class="photo-meta">
+            <time datetime="{{ page.date | date_to_xmlschema }}">
+                {{ page.date | date: "%B %d, %Y" }}
+            </time>
+            {% if page.location %} • {{ page.location }}{% endif %}
+        </p>
+        {% endif %}
+    </header>
+
+    <div class="photo-content">
+        {{ content }}
+    </div>
+
+    {% if page.flickr_url or page.glass_url %}
+    <div class="external-links">
+        {% if page.flickr_url %}
+        <a href="{{ page.flickr_url }}" target="_blank" rel="noopener">View on Flickr</a>
+        {% endif %}
+        {% if page.glass_url %}
+        <a href="{{ page.glass_url }}" target="_blank" rel="noopener">View on Glass</a>
+        {% endif %}
+    </div>
+    {% endif %}
+</article>
+
+<style>
+    .photo-page {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .photo-header {
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    .photo-meta {
+        color: #666;
+        font-size: 0.9rem;
+    }
+
+    .photo-content img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 1.5rem auto;
+        border-radius: 4px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    .external-links {
+        text-align: center;
+        margin-top: 2rem;
+        padding-top: 1rem;
+        border-top: 1px solid #ddd;
+    }
+
+    .external-links a {
+        display: inline-block;
+        margin: 0.5rem;
+        padding: 0.5rem 1rem;
+        background-color: #2c3e50;
+        color: white;
+        text-decoration: none;
+        border-radius: 4px;
+        transition: background-color 0.3s;
+    }
+
+    .external-links a:hover {
+        background-color: #34495e;
+    }
+</style>

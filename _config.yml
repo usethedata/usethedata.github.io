@@ -1,0 +1,63 @@
+title: UseTheData
+description: Personal site for photos, writing, and experiments
+baseurl: ""
+url: "https://usethedata.github.io" # will be updated to usethedata.net later
+
+# Author info
+author:
+  name: Your Name
+  email: your.email@example.com
+
+# Build settings
+markdown: kramdown
+permalink: /blog/:year/:month/:day/:title/
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-paginate
+
+# Pagination
+paginate: 10
+paginate_path: "/blog/page:num/"
+
+# Collections for flexible content organization
+collections:
+  photos:
+    output: true
+    permalink: /photos/:name/
+  experiments:
+    output: true
+    permalink: /experiments/:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "photos"
+    values:
+      layout: "photo"
+  - scope:
+      path: ""
+      type: "experiments"
+    values:
+      layout: "default"
+
+# External services
+flickr_username: your_flickr_username  # Update with your actual username
+glass_username: your_glass_username    # Update if you migrate to Glass
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - Dockerfile
+  - docker-compose.yml
+  - README.md
+  - vendor/
+  - .bundle/
