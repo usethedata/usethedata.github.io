@@ -13,3 +13,6 @@ vendor/
 # Ruby
 *.gem
 Gemfile.lock
+
+# Context folder for AI-assisted development (local only, never commit)
+context/

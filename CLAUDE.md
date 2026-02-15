@@ -121,7 +121,7 @@ tags: [data, visualization]
 - `_config.yml` - Site configuration
 - `index.md` - Homepage
 - `blog.md`, `photos.md`, `experiments.md` - Section index pages
-- `_site/` - Generated static site (git-ignored)
+- `context/` - **Local only** - AI development context files (never committed)\n- `_site/` - Generated static site (git-ignored)
 
 ## Key Files
 
@@ -159,3 +159,18 @@ tags: [data, visualization]
 **Link to Flickr/Glass:**
 1. Add `flickr_url` or `glass_url` to front matter
 2. Embed using standard markdown or HTML img tags
+## Context Folder (AI Development)
+
+The `context/` folder is for **local use only** and stores temporary files used for AI-assisted development:
+
+- Draft content before publishing
+- Reference materials and notes
+- Sample data or API responses
+- Any files needed for AI context
+
+**Protection:**
+- Added to `.gitignore` (never tracked by git)
+- Pre-commit hook blocks any attempt to commit files from this folder
+- Safe place to store sensitive or temporary development files
+
+This ensures context files never accidentally end up in the repository or deployed site.
