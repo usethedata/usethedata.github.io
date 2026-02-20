@@ -62,29 +62,25 @@ title: Bruce E. Wilson
 
 <div class="experience-item">
     <div class="role">Distinguished Staff Scientist, ORNL DAAC Manager &amp; Group Leader</div>
-    <div class="org">Oak Ridge National Laboratory</div>
-    <div class="dates">2018&ndash;2025</div>
+    <div class="org">Oak Ridge National Laboratory <span class="dates">(2018&ndash;2025)</span></div>
     <div class="detail">Led NASA's archive center for biogeochemical dynamics and terrestrial ecology data. Managed data systems serving hundreds of thousands of global users. Also served as ORNL DAAC Manager 2008&ndash;2010.</div>
 </div>
 
 <div class="experience-item">
     <div class="role">Lead Enterprise Architect</div>
-    <div class="org">Oak Ridge National Laboratory</div>
-    <div class="dates">2012&ndash;2018</div>
+    <div class="org">Oak Ridge National Laboratory <span class="dates">(2012&ndash;2018)</span></div>
     <div class="detail">Designed information systems architecture for a $2B/year DOE laboratory with the broadest research portfolio among Office of Science labs.</div>
 </div>
 
 <div class="experience-item">
     <div class="role">Adjunct Faculty</div>
-    <div class="org">University of Tennessee, Bredesen Center for Interdisciplinary Studies</div>
-    <div class="dates">2019&ndash;present</div>
+    <div class="org">University of Tennessee, Bredesen Center for Interdisciplinary Studies <span class="dates">(2019&ndash;present)</span></div>
     <div class="detail">Graduate advisor in the Data Science and Engineering program. Ph.D. thesis advisor for research applying machine learning to scientific applications.</div>
 </div>
 
 <div class="experience-item">
     <div class="role">Technical Leader, High Throughput Research Informatics</div>
-    <div class="org">The Dow Chemical Company</div>
-    <div class="dates">2001&ndash;2006</div>
+    <div class="org">The Dow Chemical Company <span class="dates">(2001&ndash;2006)</span></div>
     <div class="detail">Led 41-person team across 4 countries developing informatics tools for high-throughput research in material science, formulations, and catalysis.</div>
 </div>
 </div>
@@ -93,39 +89,33 @@ title: Bruce E. Wilson
 <h2>Service &amp; Leadership</h2>
 
 <div class="experience-item">
-    <div class="role">NASA DARES Task Force 2 Member</div>
-    <div class="dates">2025&ndash;present</div>
+    <div class="role">NASA DARES Task Force 2 Member <span class="dates">(2025&ndash;present)</span></div>
     <div class="detail">Contributing to NASA's Decadal Astrobiology Research and Exploration Strategy, with focus on digital infrastructure for astrobiology research.</div>
 </div>
 
 <div class="experience-item">
-    <div class="role">NASA Planetary Data Ecosystem IRB Co-Chair</div>
-    <div class="dates">2020&ndash;2021</div>
+    <div class="role">NASA Planetary Data Ecosystem IRB Co-Chair <span class="dates">(2020&ndash;2021)</span></div>
     <div class="detail">Co-chaired independent review board and led the Data Mining and Automation Subcommittee. Produced recommendations for improving NASA's planetary data systems.</div>
 </div>
 
 <div class="experience-item">
-    <div class="role">Co-Chair, NASA DAAC Managers Council</div>
-    <div class="dates">2020&ndash;2022</div>
+    <div class="role">Co-Chair, NASA DAAC Managers Council <span class="dates">(2020&ndash;2022)</span></div>
     <div class="detail">Co-chaired the coordinating council for NASA's 12 Distributed Active Archive Centers.</div>
 </div>
 
 <div class="experience-item">
-    <div class="role">NASA DAAC Efficiency &amp; Effectiveness Review Panel Chair</div>
-    <div class="dates">2015&ndash;2016</div>
+    <div class="role">NASA DAAC Efficiency &amp; Effectiveness Review Panel Chair <span class="dates">(2015&ndash;2016)</span></div>
     <div class="detail">Chaired review panel producing recommendations for improving the Distributed Active Archive Center component of EOSDIS.</div>
 </div>
 
 <div class="experience-item">
     <div class="role">DataONE Cyberinfrastructure Co-Lead</div>
-    <div class="org">NSF Data Observation Network for Earth</div>
-    <div class="dates">2008&ndash;2016</div>
+    <div class="org">NSF Data Observation Network for Earth <span class="dates">(2008&ndash;2016)</span></div>
     <div class="detail">Co-led cyberinfrastructure for this multi-institution NSF project providing federated access to environmental data across multiple repositories. Also served as University of Tennessee institutional PI (2008&ndash;2013).</div>
 </div>
 
 <div class="experience-item">
-    <div class="role">Proposal Reviewer</div>
-    <div class="dates">Ongoing</div>
+    <div class="role">Proposal Reviewer <span class="dates">(Ongoing)</span></div>
     <div class="detail">Reviewer for approximately 40 proposal review panels across NASA, NSF, DOE, and USGS.</div>
 </div>
 </div>
