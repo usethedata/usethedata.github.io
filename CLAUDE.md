@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is a personal professional profile site for Bruce E. Wilson, built with Jekyll and deployed to GitHub Pages. Currently hosted at `usethedata.github.io`, with planned migration to `usethedata.me`. The blog/photos/experiments site will be a separate repo at `usethedata.net`.
+This is a personal professional profile site for Bruce E. Wilson, built with Jekyll and deployed to GitHub Pages. Hosted at `usethedata.me` (custom domain, DNS at Hover). The GitHub repository is `usethedata/profile-site`. The blog/photos/experiments site will be a separate repo at `usethedata.net`.
 
 The site is a single-page professional profile emphasizing Earth science data systems, cyberinfrastructure, FAIR data, and interdisciplinary science expertise. It targets an audience of scientific committee selectors and professional peers.
 
@@ -44,7 +44,7 @@ bundle exec jekyll clean
 ## Deployment Strategy
 
 GitHub Actions automatically builds and deploys the site:
-- `main` branch → Production at https://usethedata.github.io
+- `main` branch → Production at https://usethedata.me
 - `dev` branch → Development environment for testing GitHub rendering
 - Feature branches → Local testing only (do not deploy)
 
@@ -55,6 +55,7 @@ Deployment workflow: `.github/workflows/deploy.yml`
 - `_layouts/` - HTML templates (`default.html` — the single layout)
 - `assets/images/` - Hosted images (headshot, etc.)
 - `_config.yml` - Site configuration
+- `CNAME` - Custom domain configuration for GitHub Pages
 - `index.md` - Homepage / profile page (the main content page)
 - `context/` - **Local only** - AI development context files (never committed)
 - `my_context/` - **Local only** - AI development context files (never committed)
@@ -73,7 +74,7 @@ Deployment workflow: `.github/workflows/deploy.yml`
 - The site uses Jekyll 4.3 with custom CSS (no framework)
 - Plugins: `jekyll-feed` and `jekyll-seo-tag`
 - Single-page profile site — all content is in `index.md`
-- Future migration to `usethedata.me` will require updating `url` in `_config.yml`
+- Custom domain configured via `CNAME` file (contains `usethedata.me`)
 
 ## Design System
 
