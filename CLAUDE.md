@@ -4,12 +4,9 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is a personal Jekyll-based static site that deploys to GitHub Pages. Currently hosted at `usethedata.github.io`, but will eventually move to the custom domain `usethedata.net`.
+This is a personal professional profile site for Bruce E. Wilson, built with Jekyll and deployed to GitHub Pages. Currently hosted at `usethedata.github.io`, with planned migration to `usethedata.me`. The blog/photos/experiments site will be a separate repo at `usethedata.net`.
 
-**Content Types:**
-- Blog posts (`_posts/`) - Essays, thoughts, and observations
-- Photos (`_photos/`) - Photography with links to Flickr/Glass or hosted images
-- Experiments (`_experiments/`) - Data projects and creative explorations
+The site is a single-page professional profile emphasizing Earth science data systems, cyberinfrastructure, FAIR data, and interdisciplinary science expertise. It targets an audience of scientific committee selectors and professional peers.
 
 ## Local Development with Docker (Preferred)
 
@@ -53,75 +50,15 @@ GitHub Actions automatically builds and deploys the site:
 
 Deployment workflow: `.github/workflows/deploy.yml`
 
-## Content Structure
-
-**Creating Content:**
-
-Blog posts (in `_posts/`):
-```bash
-# Filename format: YYYY-MM-DD-title.md
-_posts/2024-01-15-my-post-title.md
-```
-
-Photos (in `_photos/`):
-```bash
-# Any filename.md
-_photos/sunset-beach.md
-```
-
-Experiments (in `_experiments/`):
-```bash
-# Any filename.md
-_experiments/data-visualization.md
-```
-
-**Front Matter Examples:**
-
-Blog post:
-```yaml
----
-layout: post
-title: "Post Title"
-date: 2024-01-15 12:00:00 -0500
-tags: [tag1, tag2]
----
-```
-
-Photo:
-```yaml
----
-layout: photo
-title: "Photo Title"
-date: 2024-01-15
-location: "City, Country"
-flickr_url: https://www.flickr.com/photos/user/id
-glass_url: https://glass.photo/user/id
-thumbnail: /assets/images/thumb.jpg
----
-```
-
-Experiment:
-```yaml
----
-layout: default
-title: "Experiment Title"
-description: "Brief description"
-tags: [data, visualization]
----
-```
-
 ## Project Structure
 
-- `_posts/` - Blog posts (YYYY-MM-DD-title.md format)
-- `_photos/` - Photo collection (Jekyll collection)
-- `_experiments/` - Experimental content (Jekyll collection)
-- `_layouts/` - HTML templates (default, post, photo)
-- `_includes/` - Reusable HTML snippets
-- `assets/images/` - Hosted images
+- `_layouts/` - HTML templates (`default.html` — the single layout)
+- `assets/images/` - Hosted images (headshot, etc.)
 - `_config.yml` - Site configuration
-- `index.md` - Homepage
-- `blog.md`, `photos.md`, `experiments.md` - Section index pages
-- `context/` - **Local only** - AI development context files (never committed)\n- `_site/` - Generated static site (git-ignored)
+- `index.md` - Homepage / profile page (the main content page)
+- `context/` - **Local only** - AI development context files (never committed)
+- `my_context/` - **Local only** - AI development context files (never committed)
+- `_site/` - Generated static site (git-ignored)
 
 ## Key Files
 
@@ -133,44 +70,30 @@ tags: [data, visualization]
 
 ## Configuration Notes
 
-- The site uses Jekyll 4.3 with Materialize CSS framework for Material Design styling
-- Materialize CSS is loaded from CDN in `_layouts/default.html`
-- Plugins: `jekyll-feed`, `jekyll-seo-tag`, and `jekyll-paginate`
-- Collections: `photos` and `experiments` for flexible content organization
-- LiveReload is enabled for automatic browser refresh during development
-- Photos can be hosted locally in `assets/images/` or linked to Flickr/Glass
-- Future migration to `usethedata.net` will require updating `url` in `_config.yml`
+- The site uses Jekyll 4.3 with custom CSS (no framework)
+- Plugins: `jekyll-feed` and `jekyll-seo-tag`
+- Single-page profile site — all content is in `index.md`
+- Future migration to `usethedata.me` will require updating `url` in `_config.yml`
 
 ## Design System
 
-- **Framework:** Materialize CSS 1.0.0 (Material Design)
-- **Icons:** Material Icons
-- **Typography:** Roboto font family
-- **Color scheme:** Blue (#1565c0 primary, #0d47a1 dark)
-- **Layout:** Responsive grid system with cards and hover effects
-- **Navigation:** Responsive navbar with mobile sidenav
+- **Styling:** Custom CSS (no framework)
+- **Typography:** Roboto font family (Google Fonts)
+- **Color scheme:** Navy blue (#1a365d primary, #2c5282 accent), light gray (#f7fafc) background
+- **Layout:** Single-page responsive profile with hero, expertise grid, experience list, publications, education, and awards sections
+- **Responsive:** Flexbox/Grid, mobile-friendly without a framework
 
-## Adding Images
+## Context Folders (AI Development)
 
-**Host locally:**
-1. Add images to `assets/images/` directory
-2. Reference in markdown: `![Alt text](/assets/images/filename.jpg)`
+The `context/` and `my_context/` folders are for **local use only** and store temporary files used for AI-assisted development:
 
-**Link to Flickr/Glass:**
-1. Add `flickr_url` or `glass_url` to front matter
-2. Embed using standard markdown or HTML img tags
-## Context Folder (AI Development)
-
-The `context/` folder is for **local use only** and stores temporary files used for AI-assisted development:
-
-- Draft content before publishing
 - Reference materials and notes
-- Sample data or API responses
+- Source documents (CV, bio sketches, etc.)
 - Any files needed for AI context
 
 **Protection:**
 - Added to `.gitignore` (never tracked by git)
-- Pre-commit hook blocks any attempt to commit files from this folder
+- Pre-commit hook blocks any attempt to commit files from `context/`
 - Safe place to store sensitive or temporary development files
 
 This ensures context files never accidentally end up in the repository or deployed site.
