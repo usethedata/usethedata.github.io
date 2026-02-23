@@ -27,11 +27,11 @@ title: Bruce E. Wilson
 <div class="section">
 <h2>About</h2>
 
-<p>I am a scientist and technologist with over four decades of experience designing, building, and managing information systems that enable scientific discovery. My career spans the chemical, material, Earth, data, information, and computer sciences&mdash;an unconventional breadth that reflects the interdisciplinary nature of modern Earth science.</p>
+<p>I am a scientist and technologist with over four decades of experience designing, building, and managing information systems that enable scientific discovery. My career spans the chemical, material, Earth, data, information, and computer sciences.  This unusual breadth has helped me collaborate with experts across a wide range of disciplines.</p>
 
-<p>For most of the past two decades, I focused on making Earth science data as Findable, Accessible, Interoperable, and Reusable (FAIR) as practical. As Manager of the NASA-funded <a href="https://daac.ornl.gov/">ORNL Distributed Active Archive Center</a> (ORNL DAAC), I led one of 12 centers in NASA's Earth Observing System Data and Information System (EOSDIS), serving hundreds of thousands of users worldwide. The ORNL DAAC achieved the top customer satisfaction scores across NASA EOSDIS for 2020, 2021, and 2022.</p>
+<p>My work over much of the last two decades has focused on making Earth science data as Findable, Accessible, Interoperable, and Reusable (FAIR) as practical. As Manager of the NASA-funded <a href="https://www.earthdata.nasa.gov/centers/ornl-daac">ORNL Distributed Active Archive Center</a> (ORNL DAAC), I led one of the data archive and distribution centers in NASA's Earth Observing System Data and Information System (EOSDIS), which serves hundreds of thousands of users worldwide. </p>
 
-<p>I retired from Oak Ridge National Laboratory in September 2025 as a Distinguished Staff Scientist. I currently serve on the <a href="https://science.nasa.gov/astrobiology/strategy/dares/">NASA DARES Task Force 2</a> (Decadal Astrobiology Research and Exploration Strategy) and hold an Adjunct Faculty appointment at the University of Tennessee's <a href="https://bredesencenter.utk.edu/">Bredesen Center for Interdisciplinary Studies</a>. </p>
+<p>I retired from Oak Ridge National Laboratory in September 2025. I currently serve on the <a href="https://science.nasa.gov/astrobiology/strategy/dares/">NASA DARES Task Force 2</a> (Decadal Astrobiology Research and Exploration Strategy) and hold an Adjunct Faculty appointment at the University of Tennessee's <a href="https://bredesencenter.utk.edu/">Bredesen Center for Interdisciplinary Studies</a>. I am currently experimenting with using AI methods to develop and execute data pipelines as part of a passion project.</p>
 </div>
 
 <div class="section">
@@ -40,15 +40,15 @@ title: Bruce E. Wilson
 <div class="expertise-grid">
     <div class="expertise-card">
         <h3>Earth Observation Data Systems</h3>
-        <p>NASA EOSDIS architecture, ORNL DAAC management, Daymet gridded climate data, terrestrial ecology data stewardship, remote sensing data integration.</p>
+        <p>NASA EOSDIS architecture, ORNL DAAC management, terrestrial ecology data stewardship, metadata, remote sensing data integration, phenology.</p>
     </div>
     <div class="expertise-card">
         <h3>FAIR Data &amp; Cyberinfrastructure</h3>
-        <p>Data architecture for findability and reuse, DataONE distributed data infrastructure, data citation practices, AI/ML-ready data preparation.</p>
+        <p>Data architecture for findability and reuse, distributed data infrastructure, data citation practices, cybersecurity, AI/ML-ready data preparation.</p>
     </div>
     <div class="expertise-card">
         <h3>Strategic Planning &amp; Review</h3>
-        <p>NASA DAAC efficiency review (chair), Planetary Data Ecosystem IRB (co-chair), NSF LTER cyberinfrastructure review (chair), NOAA data strategy.</p>
+        <p>NASA Astrobiology DARES Task Force, NASA DAAC efficiency review (chair), Planetary Data Ecosystem IRB (co-chair), NSF LTER cyberinfrastructure review (chair).</p>
     </div>
     <div class="expertise-card">
         <h3>Interdisciplinary Science</h3>
@@ -63,8 +63,15 @@ title: Bruce E. Wilson
 <div class="experience-item">
     <div class="role">Distinguished Staff Scientist, ORNL DAAC Manager &amp; Group Leader</div>
     <div class="org">Oak Ridge National Laboratory <span class="dates">(2018&ndash;2025)</span></div>
-    <div class="detail">Led NASA's archive center for biogeochemical dynamics and terrestrial ecology data. Managed data systems serving hundreds of thousands of global users. Also served as ORNL DAAC Manager 2008&ndash;2010.</div>
+    <div class="detail">Led NASA's archive center for biogeochemical dynamics and terrestrial ecology data. Managed data systems serving hundreds of thousands of global users. Managed the Remote Sensing and Environmental Informatics Group (16 people).  Promoted to Distinguished Staff Scientist in 2023.</div>
 </div>
+
+<div class="experience-item">
+    <div class="role">Adjunct Faculty</div>
+    <div class="org">University of Tennessee, Bredesen Center for Interdisciplinary Studies <span class="dates">(2019&ndash;present)</span></div>
+    <div class="detail">Graduate advisor in the Data Science and Engineering program. Ph.D. thesis advisor for research applying machine learning to scientific applications.</div>
+    <div class="org">University of Tennessee, School of Information Sciences <span class="dates">(2007&ndash;2019)</span></div>
+    <div class="detail">Data Observation Network for Earth (DataONE) institutional Principal Investigator (2008&ndash;2013). DataONE cyberinfrastructure co-lead (2008&ndash;2016).</div></div>
 
 <div class="experience-item">
     <div class="role">Lead Enterprise Architect</div>
@@ -73,9 +80,15 @@ title: Bruce E. Wilson
 </div>
 
 <div class="experience-item">
-    <div class="role">Adjunct Faculty</div>
-    <div class="org">University of Tennessee, Bredesen Center for Interdisciplinary Studies <span class="dates">(2019&ndash;present)</span></div>
-    <div class="detail">Graduate advisor in the Data Science and Engineering program. Ph.D. thesis advisor for research applying machine learning to scientific applications.</div>
+    <div class="role">Group Leader, Client and Collaboration Technologies</div>
+    <div class="org">Oak Ridge National Laboratory <span class="dates">(2011&ndash;2012)</span></div>
+    <div class="detail">Manager for 45-person group responsible for managing 20,000 unclassified computers, Active Directory, patching, and systems engineering support for R&D projects.</div>
+</div>
+
+<div class="experience-item">
+    <div class="role">ORNL DAAC Systems Engineer, Manager and Group Leader</div>
+    <div class="org">Oak Ridge National Laboratory <span class="dates">(2006&ndash;2010)</span></div>
+    <div class="detail">Led ORNL DAAC systems design and implementation (2006-2008); Group Leader for 25-person Environmental Data Science and Systems Group (2008-2010).   </div>
 </div>
 
 <div class="experience-item">
@@ -89,7 +102,7 @@ title: Bruce E. Wilson
 <h2>Service &amp; Leadership</h2>
 
 <div class="experience-item">
-    <div class="role">NASA DARES Task Force 2 Member <span class="dates">(2025&ndash;present)</span></div>
+    <div class="role">NASA DARES Task Force 2 Member <span class="dates">(2026&ndash;present)</span></div>
     <div class="detail">Contributing to NASA's Decadal Astrobiology Research and Exploration Strategy, with focus on digital infrastructure for astrobiology research.</div>
 </div>
 
@@ -109,14 +122,8 @@ title: Bruce E. Wilson
 </div>
 
 <div class="experience-item">
-    <div class="role">DataONE Cyberinfrastructure Co-Lead</div>
-    <div class="org">NSF Data Observation Network for Earth <span class="dates">(2008&ndash;2016)</span></div>
-    <div class="detail">Co-led cyberinfrastructure for this multi-institution NSF project providing federated access to environmental data across multiple repositories. Also served as University of Tennessee institutional PI (2008&ndash;2013).</div>
-</div>
-
-<div class="experience-item">
     <div class="role">Proposal Reviewer <span class="dates">(Ongoing)</span></div>
-    <div class="detail">Reviewer for approximately 40 proposal review panels across NASA, NSF, DOE, and USGS.</div>
+    <div class="detail">Reviewer for approximately 25 proposal review panels across NASA, NSF, DOE, and USGS (2006-present).</div>
 </div>
 </div>
 
@@ -125,7 +132,7 @@ title: Bruce E. Wilson
 
 <div class="publication">
     <span class="authors">P.E. Thornton, R. Shrestha, M. Thornton, S.-C. Kao, Y. Wei, B.E. Wilson.</span>
-    <span class="title">"Gridded Daily Weather Data for North America with Comprehensive Uncertainty Quantification."</span>
+    <span class="title">"Gridded Daily Weather Data for North America with Comprehensive Uncertainty Quantification"</span>
     <span class="journal">Scientific Data</span> (2021).
     <a href="https://doi.org/10.1038/s41597-021-00973-0">doi:10.1038/s41597-021-00973-0</a>
 </div>
@@ -139,45 +146,45 @@ title: Bruce E. Wilson
 
 <div class="publication">
     <span class="authors">A. Rosemartin, E. Denny, J. Weltzin, L. Marsh, B.E. Wilson, H. Mehdipoor, R. Zurita-Milla, M. Schwartz.</span>
-    <span class="title">"Lilac and Honeysuckle Phenology Data 1956&ndash;2014."</span>
+    <span class="title">"Lilac and Honeysuckle Phenology Data 1956&ndash;2014"</span>
     <span class="journal">Scientific Data</span> (2015).
     <a href="https://doi.org/10.1038/sdata.2015.38">doi:10.1038/sdata.2015.38</a>
 </div>
 
 <div class="publication">
     <span class="authors">D. Wang, W.M. Post, B.E. Wilson.</span>
-    <span class="title">"Climate Change Modeling: Computational Opportunities and Challenges."</span>
+    <span class="title">"Climate Change Modeling: Computational Opportunities and Challenges"</span>
     <span class="journal">Computing in Science &amp; Engineering</span> 13, 36&ndash;42 (2011).
     <a href="https://doi.org/10.1109/MCSE.2010.147">doi:10.1109/MCSE.2010.147</a>
 </div>
 
 <div class="publication">
     <span class="authors">S.K.S. Vannan, R.B. Cook, B.E. Wilson, S.K. Holladay, L.M. Olsen, U. Dadi.</span>
-    <span class="title">"A Web-Based Subsetting Service for Regional Scale MODIS Land Products."</span>
+    <span class="title">"A Web-Based Subsetting Service for Regional Scale MODIS Land Products"</span>
     <span class="journal">IEEE Journal of Selected Topics in Earth Observations and Remote Sensing</span> 2(4), 319&ndash;328 (2009).
     <a href="https://doi.org/10.1109/JSTARS.2009.2036585">doi:10.1109/JSTARS.2009.2036585</a>
 </div>
 
 <div class="publication">
-    <span class="authors">J.T. Morisette, A.D. Richardson, A.K. Knapp, J.I. Fisher, E.A. Graham, J. Abatzoglou, B.E. Wilson, D.D. Breshears, G.M. Henebry, J.M. Hanes, L. Liang.</span>
+    <span class="authors">J.T. Morisette, A.D. Richardson, A.K. Knapp, J.I. Fisher, E.A. Graham, J. Abatzoglou, B.E. Wilson, D.D. Breshears, G.M. Henebry, J.M. Hanes, L. Liang</span>
     <span class="title">"Tracking the Rhythm of the Seasons in the Face of Global Change: Phenological Research in the 21st Century."</span>
     <span class="journal">Frontiers in Ecology and the Environment</span> 7(5), 253&ndash;260 (2009).
     <a href="https://doi.org/10.1890/070217">doi:10.1890/070217</a>
 </div>
 
 <div class="publication">
+    <span class="authors"> T.H. Kalantar, C.J. Tucker, A.S. Zalusky, T.A. Boomgaard, B.E. Wilson, M. Ladika, S.L. Jordan, W.K. Li, X. Zhang, C.G. Goh.</span>
+    <span class="title">“High Throughput Workflow for Coacervate Formation Characterization in Shampoo</span>
+    <span class="journal">Journal of Cosmetics Science</span> 58(4) 375-83 (2007).
+</div>
+
+<div class="publication">
     <span class="authors">K.P. Peil, D.R. Neithamer, D.W. Patrick, B.E. Wilson, C.J. Tucker.</span>
-    <span class="title">"Applications of High Throughput Research at The Dow Chemical Company."</span>
+    <span class="title">"Applications of High Throughput Research at The Dow Chemical Company"</span>
     <span class="journal">Macromolecular Rapid Communications</span> 25(1), 119&ndash;126 (2004).
     <a href="https://doi.org/10.1002/marc.200300160">doi:10.1002/marc.200300160</a>
 </div>
 
-<div class="publication">
-    <span class="authors">B.E. Wilson, W. Lindberg, B.R. Kowalski.</span>
-    <span class="title">"Multicomponent Quantitative Analysis Using Second-Order Nonbilinear Data: Theory and Simulations."</span>
-    <span class="journal">Journal of the American Chemical Society</span> 111(11), 3797&ndash;3804 (1989).
-    <a href="https://doi.org/10.1021/ja00193a006">doi:10.1021/ja00193a006</a>
-</div>
 
 <p class="scholar-link">
     <a href="https://scholar.google.com/citations?user=38ITdvsAAAAJ&hl=en">View full publication list on Google Scholar &rarr;</a>
