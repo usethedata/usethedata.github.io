@@ -27,11 +27,11 @@ title: Bruce E. Wilson
 <div class="section">
 <h2>About</h2>
 
-<p>I am a scientist and technologist with over four decades of experience designing, building, and managing information systems that enable scientific discovery. My career spans the chemical, material, Earth, data, information, and computer sciences.  This unusual breadth has helped me collaborate with experts across a wide range of disciplines.</p>
+<p>I am a scientist and technologist with over four decades of experience designing, building, and managing information systems to enable scientific discovery and the broader use of scientific data. My career spans the chemical, material, Earth, data, information, and computer sciences.  This unusual breadth has helped me collaborate with experts across a wide range of disciplines.</p>
 
 <p>My work over much of the last two decades has focused on making Earth science data as Findable, Accessible, Interoperable, and Reusable (FAIR) as practical. As Manager of the NASA-funded <a href="https://www.earthdata.nasa.gov/centers/ornl-daac">ORNL Distributed Active Archive Center</a> (ORNL DAAC), I led one of the data archive and distribution centers in NASA's Earth Observing System Data and Information System (EOSDIS), which serves hundreds of thousands of users worldwide. </p>
 
-<p>I retired from Oak Ridge National Laboratory in September 2025. I currently serve on the <a href="https://science.nasa.gov/astrobiology/strategy/dares/">NASA DARES Task Force 2</a> (Decadal Astrobiology Research and Exploration Strategy) and hold an Adjunct Faculty appointment at the University of Tennessee's <a href="https://bredesencenter.utk.edu/">Bredesen Center for Interdisciplinary Studies</a>. I am currently experimenting with using AI methods to develop and execute data pipelines as part of a passion project.</p>
+<p>I retired from Oak Ridge National Laboratory in September 2025. I currently serve on the <a href="https://science.nasa.gov/astrobiology/strategy/dares/">NASA DARES Task Force 2</a> (Decadal Astrobiology Research and Exploration Strategy) and hold a Graduate Research Advisor appointment at the University of Tennessee's <a href="https://bredesencenter.utk.edu/">Bredesen Center for Interdisciplinary Studies</a>. I am currently experimenting with using AI methods to develop and execute data pipelines as part of a passion project.</p>
 </div>
 
 <div class="section">
@@ -69,7 +69,7 @@ title: Bruce E. Wilson
 <div class="experience-item">
     <div class="role">Adjunct Faculty</div>
     <div class="org">University of Tennessee, Bredesen Center for Interdisciplinary Studies <span class="dates">(2019&ndash;present)</span></div>
-    <div class="detail">Graduate advisor in the Data Science and Engineering program. Ph.D. thesis advisor for research applying machine learning to scientific applications.</div>
+    <div class="detail">Advised and mentored students in the Data Science and Engineering program. Ph.D. thesis advisor for research applying machine learning to scientific applications.</div>
     <div class="org">University of Tennessee, School of Information Sciences <span class="dates">(2007&ndash;2019)</span></div>
     <div class="detail">Data Observation Network for Earth (DataONE) institutional Principal Investigator (2008&ndash;2013). DataONE cyberinfrastructure co-lead (2008&ndash;2016).</div></div>
 
@@ -82,7 +82,7 @@ title: Bruce E. Wilson
 <div class="experience-item">
     <div class="role">Group Leader, Client and Collaboration Technologies</div>
     <div class="org">Oak Ridge National Laboratory <span class="dates">(2011&ndash;2012)</span></div>
-    <div class="detail">Manager for 45-person group responsible for managing 20,000 unclassified computers, Active Directory, patching, and systems engineering support for R&D projects.</div>
+    <div class="detail">Managed for 45-person group responsible for administering 20,000 unclassified computers, Active Directory, patching, and systems engineering support for R&D projects.</div>
 </div>
 
 <div class="experience-item">
@@ -167,15 +167,16 @@ title: Bruce E. Wilson
 
 <div class="publication">
     <span class="authors">J.T. Morisette, A.D. Richardson, A.K. Knapp, J.I. Fisher, E.A. Graham, J. Abatzoglou, B.E. Wilson, D.D. Breshears, G.M. Henebry, J.M. Hanes, L. Liang</span>
-    <span class="title">"Tracking the Rhythm of the Seasons in the Face of Global Change: Phenological Research in the 21st Century."</span>
+    <span class="title">"Tracking the Rhythm of the Seasons in the Face of Global Change: Phenological Research in the 21st Century"</span>
     <span class="journal">Frontiers in Ecology and the Environment</span> 7(5), 253&ndash;260 (2009).
     <a href="https://doi.org/10.1890/070217">doi:10.1890/070217</a>
 </div>
 
 <div class="publication">
     <span class="authors"> T.H. Kalantar, C.J. Tucker, A.S. Zalusky, T.A. Boomgaard, B.E. Wilson, M. Ladika, S.L. Jordan, W.K. Li, X. Zhang, C.G. Goh.</span>
-    <span class="title">“High Throughput Workflow for Coacervate Formation Characterization in Shampoo</span>
+    <span class="title">“High Throughput Workflow for Coacervate Formation Characterization in Shampoo"</span>
     <span class="journal">Journal of Cosmetics Science</span> 58(4) 375-83 (2007).
+    <a href="https://library.scconline.org/v058n04/103">https://library.scconline.org/v058n04/103</a> (no DOI available)
 </div>
 
 <div class="publication">
