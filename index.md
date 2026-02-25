@@ -88,7 +88,7 @@ title: Bruce E. Wilson
 <div class="experience-item">
     <div class="role">ORNL DAAC Systems Engineer, Manager and Group Leader</div>
     <div class="org">Oak Ridge National Laboratory <span class="dates">(2006&ndash;2010)</span></div>
-    <div class="detail">Led ORNL DAAC systems design and implementation (2006-2008); Group Leader for 25-person Environmental Data Science and Systems Group (2008-2010).   </div>
+    <div class="detail">Led ORNL DAAC systems design and implementation (2006-2008). Group Leader for 25-person Environmental Data Science and Systems Group (2008-2010).   </div>
 </div>
 
 <div class="experience-item">
